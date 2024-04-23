@@ -1,0 +1,91 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+
+#features{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+#Testimonial{
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height:70vh;
+}
+
+#doggu{
+  border-radius: 50%;
+  margin:10px;
+  
+  align-items: center;
+  
+}
+
+.company{
+  margin:10px;
+  height: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer{
+  padding: 15px;
+  color: black;
+}
+
+.pricing{
+  margin:10%;
+}
+
+#matrimonialimages{
+  margin: 10%;
+  
+}
+
+.carousel-inner{
+  height:100vh;
+}
+
+#pricing{
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+
+.carousel-item{
+  color: black;
+}
+
+
